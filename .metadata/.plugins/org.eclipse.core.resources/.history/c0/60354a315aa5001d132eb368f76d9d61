@@ -1,0 +1,38 @@
+package driverFactory;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class driverfactory {
+static WebDriver driver;
+	
+	public static WebDriver init_driver(String browser) {
+		if(browser.equals("chrome")) {
+			WebDriverManager.chromedriver().setup();
+//			WebDriverManager.edgedriver().setup();
+//			WebDriverManager.firefoxdriver().setup();
+			 driver = new ChromeDriver();
+			}
+			else if(browser.equals("Edge")) {
+				//WebDriverManager.Edgedriver.setup();
+				driver=new EdgeDriver();
+			}
+			else {
+				System.out.println("Enter correct browser");
+				System.exit(0);
+			}
+			driver.manage().window().maximize();
+			
+			return driver;
+	}
+	
+	public WebDriver getdriver() //can use to initilaze multipule time
+	{
+	return driver;
+	}
+	
+	
+}

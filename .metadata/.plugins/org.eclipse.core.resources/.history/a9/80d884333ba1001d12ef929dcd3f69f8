@@ -1,0 +1,64 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class PimPage {
+	
+	WebDriver driver;
+    
+	
+	
+	By alltextField=By.xpath("//input[@placeholder='Type for hints...']");
+	By EmployeeId=By.xpath("//div[@class='oxd-input-group oxd-input-field-bottom-space']/div/input[@class='oxd-input oxd-input--active']");//("//div[@class='oxd-input-field-bottom-space']/div/input[@class='oxd-input--active']");
+    By alldropdown =By.xpath("//i[@class='oxd-select-text--arrow']");
+	By switchButton=By.xpath("//button[@class='orangehrm-left-space']");
+	By pimpresent=By.xpath("//h6[text()='PIM']");
+	
+	
+	public PimPage(WebDriver driver) {
+		this.driver=driver;
+	}
+	
+	public boolean PIMpresent() {
+		
+		WebDriverWait wait = new WebDriverWait( driver,5);
+		try {
+	WebElement ele=	wait.until(ExpectedConditions.presenceOfElementLocated(pimpresent));
+		return true;
+	}
+	 catch(TimeoutException e) {
+		 return false;
+	 }
+	}
+	
+	public void EmployeeName() {
+		driver.findElement(alltextField).sendKeys("jack");
+		
+	}
+	
+	public void EmployeeId() {
+		driver.findElement(EmployeeId).sendKeys("234");
+	}
+	
+	public void EmploymentStatus( String value ) {
+		String str="//div[@class='oxd-select-option'][";
+		String str1="]";
+		 
+		 String xpth=str+ value+str1;
+		
+		By dropdownElement=By.xpath(xpth);
+		driver.findElement(alldropdown).click();
+		
+		driver.findElement(dropdownElement).click();
+	}
+
+	
+	
+	
+	
+}

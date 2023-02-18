@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.OutputType"/>
+<fullyQualifiedTypeName name="org.testng.ITestListener"/>
+<fullyQualifiedTypeName name="util.screenshotutils"/>
+<fullyQualifiedTypeName name="driverFactory.driverfactory"/>
+<fullyQualifiedTypeName name="Listener.webdriverListener"/>
+<fullyQualifiedTypeName name="org.testng.log4testng.Logger"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+</qualifiedTypeNameHistroy>

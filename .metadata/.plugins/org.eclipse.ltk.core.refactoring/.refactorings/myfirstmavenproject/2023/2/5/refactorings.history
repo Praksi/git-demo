@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;utility&apos; to &apos;util&apos;&#x0D;&#x0A;- Original project: &apos;myfirstmavenproject&apos;&#x0D;&#x0A;- Original element: &apos;myfirstmavenproject/src/main/java/utility&apos;&#x0D;&#x0A;- Renamed element: &apos;myfirstmavenproject/src/main/java/util&apos;&#x0D;&#x0A;- Update textual occurrences in comments and strings&#x0D;&#x0A;- Rename subpackages of the package" description="Rename package &apos;utility&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;utility" name="util" qualified="false" references="false" stamp="1675260307022" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,16 @@
+package util;
+
+public class Testclass {
+
+	public static void main(String[] args) {
+		
+		String userdir=System.getProperty("user.dir");
+		System.out.println(userdir);  
+		String filepath =userdir+"\\src\\main\\java\\congif\\propertites\\config.properties";
+		System.out.println(filepath);
+		
+	//	File file=new file()
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+package util;
+
+import java.io.File;
+
+public class propconfig {
+	
+	public void init_propreties( String env){
+		
+		String userdir=System.getProperty("user.dir"); //system current projectpath
+		String filepath =userdir+"\\src\\main\\java\\congif\\propertites\\config.properties";
+		
+		if(env.equals("SIT")) {
+			
+		}
+			File file=new File(filepath);
+		}
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+		
+		
+
+	}
+
+}

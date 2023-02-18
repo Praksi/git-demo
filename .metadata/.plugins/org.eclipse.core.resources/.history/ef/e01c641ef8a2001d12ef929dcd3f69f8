@@ -1,0 +1,143 @@
+package pages;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class PimPage {
+	
+	WebDriver driver;
+    
+	
+	
+	By EmployeeName=By.xpath("//label[text()='Employee Name']/parent::div/following-sibling::div//input");
+	By EmployeeId=By.xpath("//label[text()='Employee Id']/parent::div/following-sibling::div//input");
+	By SupervisorName=By.xpath("//label[text()='Supervisor Name']/parent::div/following-sibling::div//input");
+    By EmploymentStatus =By.xpath("//label[text()='Employment Status']/parent::div/following-sibling::div//div[text()='-- Select --']");
+    By CurrentEmployeesOnly =By.xpath("//label[text()='Include']/parent::div/following-sibling::div//div[text()='Current Employees Only']");
+    By JobTitle =By.xpath("//label[text()='Job Title']/parent::div/following-sibling::div//div[text()='-- Select --']");
+    By SubUnit =By.xpath("//label[text()='Sub Unit']/parent::div/following-sibling::div//div[text()='-- Select --']");
+    
+   By PartTimeInternship =   By.xpath("//div[@role='listbox']//div/span[text()='Part-Time Internship']");
+   By CurrentandPastEmployees =By.xpath("//div[@role='listbox']//div/span[text()='Current and Past Employees']");
+   By ITManager=By.xpath("//div[@role='listbox']//div/span[text()='IT Manager']");
+   By Engineering=By.xpath("//div[@role='listbox']//div/span[text()='Engineering']");
+    
+	By searchButton=By.xpath("//button[text()=' Search ']");
+	By pimpresent=By.xpath("//h6[text()='PIM']");
+	
+	
+	public PimPage(WebDriver driver) {
+		this.driver=driver;
+	}
+	
+	public boolean PIMpresent() {
+		
+		WebDriverWait wait = new WebDriverWait( driver,5);
+		try {
+	WebElement ele=	wait.until(ExpectedConditions.presenceOfElementLocated(pimpresent));
+		return true;
+	}
+	 catch(TimeoutException e) {
+		 return false;
+	 }
+	}
+	
+	public void EmployeeName() {
+		driver.findElement(EmployeeName).sendKeys("jack");
+		
+	}
+	
+	public void EmployeeId() {
+		driver.findElement(EmployeeId).sendKeys("234");
+	}
+	
+	public void SupervisorName() {
+		
+		driver.findElement(SupervisorName).sendKeys("Lisa andrew");
+			
+	}
+	
+	public boolean EmploymentStatus() {
+		driver.findElement(EmploymentStatus).click();
+	
+		
+		WebDriverWait wait =new WebDriverWait(driver,20);
+		try {
+			
+	  WebElement webele=wait.until(ExpectedConditions.presenceOfElementLocated(PartTimeInternship));
+	       webele.click();
+	          return true;
+	  
+		}
+		catch (TimeoutException e) {
+			return false;
+		}
+		
+		
+	}
+	
+	
+	public boolean CurrentEmployeesOnly() {
+		driver.findElement(CurrentEmployeesOnly).click();
+		WebDriverWait wait =new WebDriverWait(driver,10);
+		try {
+			
+	  WebElement currentemployee=wait.until(ExpectedConditions.presenceOfElementLocated(CurrentandPastEmployees));
+	  currentemployee.click();
+	  return true;
+	  }
+		catch(TimeoutException e) {
+			return false;
+		}
+	}
+	
+	
+	
+	public boolean JobTitle() {
+		driver.findElement(JobTitle).click();
+		
+		WebDriverWait wait =new WebDriverWait(driver,10);
+		try {
+			
+	  WebElement ITmanager=wait.until(ExpectedConditions.presenceOfElementLocated(ITManager));
+	  ITmanager.click();
+	  return true;
+	  }
+		catch(TimeoutException e) {
+			return false;
+		}
+		
+		
+	}
+	
+	
+   public boolean SubUnit() {
+	   driver.findElement(SubUnit).click();
+	   WebDriverWait wait =new WebDriverWait(driver,10);
+		try {
+			
+	  WebElement Engineer=wait.until(ExpectedConditions.presenceOfElementLocated(Engineering));
+	  Engineer.click();
+	  return true;
+	  }
+		catch(TimeoutException e) {
+			return false;
+		}
+	 
+   }
+	public void clickonsearchButton(){
+		
+			  driver.findElement(searchButton).click();
+			  
+			 
+	} 
+	
+	
+	
+}

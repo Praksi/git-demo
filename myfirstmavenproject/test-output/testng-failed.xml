@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Listener.testngListener"/>
+    <listener class-name="Listener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" parallel="methods">
+    <parameter name="env" value="SIT"/>
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="beforetest"/>
+          <include name="navigateToResetPassword"/>
+          <include name="redirectToResetPasswordPageLinkPresent"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="invalidLogin"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.HomeTest">
+        <methods>
+          <include name="beforetest"/>
+          <include name="afterMethod"/>
+          <include name="verifyLinks"/>
+          <include name="beforeMethod"/>
+          <include name="verifyAdminButtonNavigatesToAdminPage"/>
+        </methods>
+      </class> <!-- tests.HomeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

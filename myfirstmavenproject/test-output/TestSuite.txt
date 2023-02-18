@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 95.897 s <<< FAILURE! - in TestSuite
+invalidLogin(tests.LoginTest)  Time elapsed: 3.77 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid credentials1] but found [Invalid credentials]
+	at tests.LoginTest.invalidLogin(LoginTest.java:41)
+
+loginTest(tests.LoginTest)  Time elapsed: 5.325 s  <<< FAILURE!
+java.lang.AssertionError: expected [Sumit Rana] but found [Karnan Arjun]
+	at tests.LoginTest.loginTest(LoginTest.java:28)
+

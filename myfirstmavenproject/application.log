@@ -1,0 +1,380 @@
+2023-02-06 16:11:04,394  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 16:19:12,505  INFO [main] TestBase:42 - Execution started for testcase:invalidLogin-----------
+2023-02-06 16:19:14,757  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 16:19:29,911  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 16:19:29,928  INFO [main] elementutils:21 - Locator :By.name: username
+2023-02-06 16:19:30,816  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 16:19:30,817  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 16:19:30,818  INFO [main] elementutils:21 - Locator :By.name: password
+2023-02-06 16:19:31,084  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 16:19:31,084  INFO [main] elementutils:34 - inside doclick method
+2023-02-06 16:19:31,085  INFO [main] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-06 16:19:31,291  INFO [main] elementutils:38 - successful click on button
+2023-02-06 16:19:31,296  INFO [main] elementutils:47 - inside isElementPresent method
+2023-02-06 16:19:31,297  INFO [main] elementutils:48 - locator:By.className: oxd-alert-content-text
+2023-02-06 16:19:33,900  INFO [main] elementutils:52 - Element is present
+2023-02-06 16:19:33,907  INFO [main] elementutils:63 - inside gettext method
+2023-02-06 16:19:33,907  INFO [main] elementutils:64 - locator:By.className: oxd-alert-content-text
+2023-02-06 16:19:33,942  INFO [main] elementutils:67 - text found
+2023-02-06 16:19:35,418  INFO [main] TestBase:42 - Execution started for testcase:loginTest-----------
+2023-02-06 16:19:35,691  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 16:19:49,688  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 16:19:49,692  INFO [main] elementutils:21 - Locator :By.name: username
+2023-02-06 16:19:50,666  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 16:19:50,667  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 16:19:50,668  INFO [main] elementutils:21 - Locator :By.name: password
+2023-02-06 16:19:51,066  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 16:19:51,066  INFO [main] elementutils:34 - inside doclick method
+2023-02-06 16:19:51,067  INFO [main] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-06 16:20:20,062  INFO [main] elementutils:38 - successful click on button
+2023-02-06 16:20:20,063  INFO [main] elementutils:47 - inside isElementPresent method
+2023-02-06 16:20:20,064  INFO [main] elementutils:48 - locator:By.className: oxd-userdropdown-name
+2023-02-06 16:20:21,319  INFO [main] elementutils:52 - Element is present
+2023-02-06 16:20:23,848  INFO [main] TestBase:42 - Execution started for testcase:redirectToResetPasswordPageLinkPresent-----------
+2023-02-06 16:20:23,930  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 16:22:03,741  INFO [main] TestBase:42 - Execution started for testcase:navigateToResetPassword-----------
+2023-02-06 16:22:03,826  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 17:49:11,768  INFO [main] TestBase:44 - Execution started for testcase:invalidLogin-----------
+2023-02-06 17:49:16,918  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 17:50:34,906  INFO [main] TestBase:44 - Execution started for testcase:invalidLogin-----------
+2023-02-06 17:50:37,078  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 17:50:50,175  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 17:50:50,190  INFO [main] elementutils:21 - Locator :By.name: username
+2023-02-06 17:50:50,857  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 17:50:50,857  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 17:50:50,857  INFO [main] elementutils:21 - Locator :By.name: password
+2023-02-06 17:50:51,161  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 17:50:51,161  INFO [main] elementutils:34 - inside doclick method
+2023-02-06 17:50:51,162  INFO [main] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-06 17:50:53,062  INFO [main] elementutils:38 - successful click on button
+2023-02-06 17:50:53,065  INFO [main] elementutils:47 - inside isElementPresent method
+2023-02-06 17:50:53,066  INFO [main] elementutils:48 - locator:By.className: oxd-alert-content-text
+2023-02-06 17:50:53,672  INFO [main] elementutils:52 - Element is present
+2023-02-06 17:50:53,678  INFO [main] elementutils:63 - inside gettext method
+2023-02-06 17:50:53,679  INFO [main] elementutils:64 - locator:By.className: oxd-alert-content-text
+2023-02-06 17:50:53,714  INFO [main] elementutils:67 - text found
+2023-02-06 17:50:55,391  INFO [main] TestBase:44 - Execution started for testcase:loginTest-----------
+2023-02-06 17:50:55,530  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 17:56:07,623  INFO [main] TestBase:44 - Execution started for testcase:invalidLogin-----------
+2023-02-06 17:56:10,051  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 17:59:02,076  INFO [main] TestBase:44 - Execution started for testcase:invalidLogin-----------
+2023-02-06 17:59:04,368  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 17:59:34,982  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 17:59:35,019  INFO [main] elementutils:21 - Locator :By.name: username
+2023-02-06 17:59:35,791  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 17:59:35,792  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 17:59:35,793  INFO [main] elementutils:21 - Locator :By.name: password
+2023-02-06 17:59:36,229  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 17:59:36,230  INFO [main] elementutils:34 - inside doclick method
+2023-02-06 17:59:36,230  INFO [main] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-06 17:59:38,131  INFO [main] elementutils:38 - successful click on button
+2023-02-06 17:59:38,135  INFO [main] elementutils:47 - inside isElementPresent method
+2023-02-06 17:59:38,136  INFO [main] elementutils:48 - locator:By.className: oxd-alert-content-text
+2023-02-06 17:59:38,736  INFO [main] elementutils:52 - Element is present
+2023-02-06 17:59:38,743  INFO [main] elementutils:63 - inside gettext method
+2023-02-06 17:59:38,744  INFO [main] elementutils:64 - locator:By.className: oxd-alert-content-text
+2023-02-06 17:59:38,783  INFO [main] elementutils:67 - text found
+2023-02-06 17:59:40,235  INFO [main] TestBase:44 - Execution started for testcase:loginTest-----------
+2023-02-06 17:59:40,519  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 17:59:54,403  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 17:59:54,404  INFO [main] elementutils:21 - Locator :By.name: username
+2023-02-06 17:59:55,363  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 17:59:55,364  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 17:59:55,364  INFO [main] elementutils:21 - Locator :By.name: password
+2023-02-06 17:59:55,670  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 17:59:55,670  INFO [main] elementutils:34 - inside doclick method
+2023-02-06 17:59:55,671  INFO [main] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-06 17:59:58,345  INFO [main] elementutils:38 - successful click on button
+2023-02-06 17:59:58,346  INFO [main] elementutils:47 - inside isElementPresent method
+2023-02-06 17:59:58,346  INFO [main] elementutils:48 - locator:By.className: oxd-userdropdown-name
+2023-02-06 17:59:59,380  INFO [main] elementutils:52 - Element is present
+2023-02-06 18:00:01,614  INFO [main] TestBase:44 - Execution started for testcase:redirectToResetPasswordPageLinkPresent-----------
+2023-02-06 18:00:01,811  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 18:00:17,925  INFO [main] TestBase:44 - Execution started for testcase:navigateToResetPassword-----------
+2023-02-06 18:00:18,008  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 18:05:42,725  INFO [main] TestBase:44 - Execution started for testcase:invalidLogin-----------
+2023-02-06 18:05:44,887  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 18:10:33,035  INFO [main] TestBase:44 - Execution started for testcase:invalidLogin-----------
+2023-02-06 18:10:35,216  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 18:10:57,033  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 18:10:57,034  INFO [main] elementutils:21 - Locator :By.name: username
+2023-02-06 18:10:57,577  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 18:10:57,578  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 18:10:57,579  INFO [main] elementutils:21 - Locator :By.name: password
+2023-02-06 18:10:57,985  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 18:10:57,986  INFO [main] elementutils:34 - inside doclick method
+2023-02-06 18:10:57,987  INFO [main] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-06 18:10:58,256  INFO [main] elementutils:38 - successful click on button
+2023-02-06 18:10:58,259  INFO [main] elementutils:47 - inside isElementPresent method
+2023-02-06 18:10:58,260  INFO [main] elementutils:48 - locator:By.className: oxd-alert-content-text
+2023-02-06 18:11:01,735  INFO [main] elementutils:52 - Element is present
+2023-02-06 18:11:01,742  INFO [main] elementutils:63 - inside gettext method
+2023-02-06 18:11:01,742  INFO [main] elementutils:64 - locator:By.className: oxd-alert-content-text
+2023-02-06 18:11:01,778  INFO [main] elementutils:67 - text found
+2023-02-06 18:11:04,569  INFO [main] TestBase:44 - Execution started for testcase:loginTest-----------
+2023-02-06 18:11:04,758  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 18:11:22,423  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 18:11:22,428  INFO [main] elementutils:21 - Locator :By.name: username
+2023-02-06 18:11:23,257  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 18:11:23,258  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 18:11:23,258  INFO [main] elementutils:21 - Locator :By.name: password
+2023-02-06 18:11:23,690  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 18:11:23,691  INFO [main] elementutils:34 - inside doclick method
+2023-02-06 18:11:23,691  INFO [main] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-06 18:11:26,799  INFO [main] elementutils:38 - successful click on button
+2023-02-06 18:11:26,800  INFO [main] elementutils:47 - inside isElementPresent method
+2023-02-06 18:11:26,801  INFO [main] elementutils:48 - locator:By.className: oxd-userdropdown-name
+2023-02-06 18:11:27,564  INFO [main] elementutils:52 - Element is present
+2023-02-06 18:11:30,476  INFO [main] TestBase:44 - Execution started for testcase:redirectToResetPasswordPageLinkPresent-----------
+2023-02-06 18:11:30,742  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 18:11:46,035  INFO [main] TestBase:44 - Execution started for testcase:navigateToResetPassword-----------
+2023-02-06 18:11:46,109  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 18:13:40,997  INFO [main] TestBase:37 - SIT
+2023-02-06 18:13:41,092  INFO [main] TestBase:45 - Execution started for testcase:invalidLogin-----------
+2023-02-06 18:13:43,253  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 18:13:59,788  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 18:13:59,789  INFO [main] elementutils:21 - Locator :By.name: username
+2023-02-06 18:14:00,895  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 18:14:00,895  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 18:14:00,896  INFO [main] elementutils:21 - Locator :By.name: password
+2023-02-06 18:14:01,124  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 18:14:01,125  INFO [main] elementutils:34 - inside doclick method
+2023-02-06 18:14:01,125  INFO [main] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-06 18:14:02,815  INFO [main] elementutils:38 - successful click on button
+2023-02-06 18:14:02,817  INFO [main] elementutils:47 - inside isElementPresent method
+2023-02-06 18:14:02,818  INFO [main] elementutils:48 - locator:By.className: oxd-alert-content-text
+2023-02-06 18:14:03,420  INFO [main] elementutils:52 - Element is present
+2023-02-06 18:14:03,426  INFO [main] elementutils:63 - inside gettext method
+2023-02-06 18:14:03,430  INFO [main] elementutils:64 - locator:By.className: oxd-alert-content-text
+2023-02-06 18:14:03,462  INFO [main] elementutils:67 - text found
+2023-02-06 18:14:05,242  INFO [main] TestBase:45 - Execution started for testcase:loginTest-----------
+2023-02-06 18:14:05,450  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-06 18:14:19,001  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 18:14:19,005  INFO [main] elementutils:21 - Locator :By.name: username
+2023-02-06 18:14:19,928  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 18:14:19,928  INFO [main] elementutils:20 - inside enterusername method
+2023-02-06 18:14:19,929  INFO [main] elementutils:21 - Locator :By.name: password
+2023-02-06 18:14:20,322  INFO [main] elementutils:24 - username successfully entered
+2023-02-06 18:14:20,322  INFO [main] elementutils:34 - inside doclick method
+2023-02-06 18:14:20,323  INFO [main] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-06 18:14:22,634  INFO [main] elementutils:38 - successful click on button
+2023-02-06 18:14:22,637  INFO [main] elementutils:47 - inside isElementPresent method
+2023-02-06 18:14:22,638  INFO [main] elementutils:48 - locator:By.className: oxd-userdropdown-name
+2023-02-06 18:14:23,412  INFO [main] elementutils:52 - Element is present
+2023-02-06 18:14:26,379  INFO [main] TestBase:45 - Execution started for testcase:redirectToResetPasswordPageLinkPresent-----------
+2023-02-06 18:14:26,473  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-09 14:59:42,709  INFO [main] TestBase:37 - SIT
+2023-02-09 14:59:42,814  INFO [main] TestBase:45 - Execution started for testcase:invalidLogin-----------
+2023-02-09 14:59:49,704  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-09 15:02:43,983  INFO [main] TestBase:37 - SIT
+2023-02-09 15:02:44,073  INFO [main] TestBase:45 - Execution started for testcase:invalidLogin-----------
+2023-02-09 15:02:46,729  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-09 15:03:05,235  INFO [main] elementutils:20 - inside enterusername method
+2023-02-09 15:03:05,237  INFO [main] elementutils:21 - Locator :By.name: username
+2023-02-09 15:03:06,095  INFO [main] elementutils:24 - username successfully entered
+2023-02-09 15:03:06,096  INFO [main] elementutils:20 - inside enterusername method
+2023-02-09 15:03:06,097  INFO [main] elementutils:21 - Locator :By.name: password
+2023-02-09 15:03:06,366  INFO [main] elementutils:24 - username successfully entered
+2023-02-09 15:03:06,369  INFO [main] elementutils:34 - inside doclick method
+2023-02-09 15:03:06,369  INFO [main] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-09 15:03:06,587  INFO [main] elementutils:38 - successful click on button
+2023-02-09 15:03:06,591  INFO [main] elementutils:47 - inside isElementPresent method
+2023-02-09 15:03:06,591  INFO [main] elementutils:48 - locator:By.className: oxd-alert-content-text
+2023-02-09 15:03:08,744  INFO [main] elementutils:52 - Element is present
+2023-02-09 15:03:08,750  INFO [main] elementutils:63 - inside gettext method
+2023-02-09 15:03:08,754  INFO [main] elementutils:64 - locator:By.className: oxd-alert-content-text
+2023-02-09 15:03:08,785  INFO [main] elementutils:67 - text found
+2023-02-09 15:03:10,268  INFO [main] TestBase:45 - Execution started for testcase:loginTest-----------
+2023-02-09 15:03:10,356  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-09 15:03:43,066  INFO [main] elementutils:20 - inside enterusername method
+2023-02-09 15:03:43,067  INFO [main] elementutils:21 - Locator :By.name: username
+2023-02-09 15:03:43,944  INFO [main] elementutils:24 - username successfully entered
+2023-02-09 15:03:43,945  INFO [main] elementutils:20 - inside enterusername method
+2023-02-09 15:03:43,945  INFO [main] elementutils:21 - Locator :By.name: password
+2023-02-09 15:03:44,209  INFO [main] elementutils:24 - username successfully entered
+2023-02-09 15:03:44,210  INFO [main] elementutils:34 - inside doclick method
+2023-02-09 15:03:44,211  INFO [main] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-09 15:03:44,394  INFO [main] elementutils:38 - successful click on button
+2023-02-09 15:03:44,395  INFO [main] elementutils:47 - inside isElementPresent method
+2023-02-09 15:03:44,396  INFO [main] elementutils:48 - locator:By.className: oxd-userdropdown-name
+2023-02-09 15:03:46,877  INFO [main] elementutils:52 - Element is present
+2023-02-09 15:03:49,964  INFO [main] TestBase:45 - Execution started for testcase:redirectToResetPasswordPageLinkPresent-----------
+2023-02-09 15:03:50,062  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-09 17:20:55,525  INFO [main] TestBase:37 - SIT
+2023-02-09 17:20:55,629  INFO [main] TestBase:45 - Execution started for testcase:invalidLogin-----------
+2023-02-09 17:21:44,320  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-09 17:21:59,483  INFO [main] elementutils:20 - inside enterusername method
+2023-02-09 17:21:59,484  INFO [main] elementutils:21 - Locator :By.name: username
+2023-02-09 17:22:00,380  INFO [main] elementutils:24 - username successfully entered
+2023-02-09 17:22:00,381  INFO [main] elementutils:20 - inside enterusername method
+2023-02-09 17:22:00,382  INFO [main] elementutils:21 - Locator :By.name: password
+2023-02-09 17:22:00,654  INFO [main] elementutils:24 - username successfully entered
+2023-02-09 17:22:00,655  INFO [main] elementutils:34 - inside doclick method
+2023-02-09 17:22:00,656  INFO [main] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-09 17:22:02,507  INFO [main] elementutils:38 - successful click on button
+2023-02-09 17:22:02,510  INFO [main] elementutils:47 - inside isElementPresent method
+2023-02-09 17:22:02,510  INFO [main] elementutils:48 - locator:By.className: oxd-alert-content-text
+2023-02-09 17:22:03,160  INFO [main] elementutils:52 - Element is present
+2023-02-09 17:22:03,166  INFO [main] elementutils:63 - inside gettext method
+2023-02-09 17:22:03,169  INFO [main] elementutils:64 - locator:By.className: oxd-alert-content-text
+2023-02-09 17:22:03,209  INFO [main] elementutils:67 - text found
+2023-02-09 17:22:05,350  INFO [main] TestBase:45 - Execution started for testcase:loginTest-----------
+2023-02-09 17:22:05,452  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-09 17:22:15,855  INFO [main] elementutils:20 - inside enterusername method
+2023-02-09 17:22:15,856  INFO [main] elementutils:21 - Locator :By.name: username
+2023-02-09 17:22:16,650  INFO [main] elementutils:24 - username successfully entered
+2023-02-09 17:22:16,650  INFO [main] elementutils:20 - inside enterusername method
+2023-02-09 17:22:16,651  INFO [main] elementutils:21 - Locator :By.name: password
+2023-02-09 17:22:17,076  INFO [main] elementutils:24 - username successfully entered
+2023-02-09 17:22:17,076  INFO [main] elementutils:34 - inside doclick method
+2023-02-09 17:22:17,077  INFO [main] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-09 17:22:19,070  INFO [main] elementutils:38 - successful click on button
+2023-02-09 17:22:19,071  INFO [main] elementutils:47 - inside isElementPresent method
+2023-02-09 17:22:19,071  INFO [main] elementutils:48 - locator:By.className: oxd-userdropdown-name
+2023-02-09 17:22:19,898  INFO [main] elementutils:52 - Element is present
+2023-02-09 17:22:23,856  INFO [main] TestBase:45 - Execution started for testcase:redirectToResetPasswordPageLinkPresent-----------
+2023-02-09 17:22:23,963  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-09 17:22:37,303  INFO [main] TestBase:45 - Execution started for testcase:navigateToResetPassword-----------
+2023-02-09 17:22:37,401  INFO [main] driverfactory:21 - chorme initilaized
+2023-02-09 17:45:11,870  INFO [main] TestBase:37 - SIT
+2023-02-09 17:45:11,979  INFO [TestNG-test=Test-4] TestBase:45 - Execution started for testcase:verifyAdminButtonNavigatesToAdminPage-----------
+2023-02-09 17:45:11,996  INFO [TestNG-test=Test-1] TestBase:45 - Execution started for testcase:invalidLogin-----------
+2023-02-09 17:45:11,999  INFO [TestNG-test=Test-2] TestBase:45 - Execution started for testcase:loginTest-----------
+2023-02-09 17:45:12,004  INFO [TestNG-test=Test-5] TestBase:45 - Execution started for testcase:verifyLinks-----------
+2023-02-09 17:45:12,009  INFO [TestNG-test=Test-3] TestBase:45 - Execution started for testcase:redirectToResetPasswordPageLinkPresent-----------
+2023-02-09 17:45:14,491  INFO [TestNG-test=Test-1] driverfactory:21 - chorme initilaized
+2023-02-09 17:45:14,497  INFO [TestNG-test=Test-4] driverfactory:21 - chorme initilaized
+2023-02-09 17:45:14,506  INFO [TestNG-test=Test-3] driverfactory:21 - chorme initilaized
+2023-02-09 17:45:14,516  INFO [TestNG-test=Test-2] driverfactory:21 - chorme initilaized
+2023-02-09 17:45:14,524  INFO [TestNG-test=Test-5] driverfactory:21 - chorme initilaized
+2023-02-09 17:46:50,921  INFO [TestNG-test=Test-1] elementutils:20 - inside enterusername method
+2023-02-09 17:46:50,922  INFO [TestNG-test=Test-1] elementutils:21 - Locator :By.name: username
+2023-02-09 17:46:56,229  INFO [TestNG-test=Test-2] elementutils:20 - inside enterusername method
+2023-02-09 17:46:56,230  INFO [TestNG-test=Test-2] elementutils:21 - Locator :By.name: username
+2023-02-09 17:48:11,142  INFO [main] TestBase:37 - SIT
+2023-02-09 17:48:11,260  INFO [TestNG-test=Test-2] TestBase:45 - Execution started for testcase:loginTest-----------
+2023-02-09 17:48:11,260  INFO [TestNG-test=Test-1] TestBase:45 - Execution started for testcase:invalidLogin-----------
+2023-02-09 17:48:13,721  INFO [TestNG-test=Test-2] driverfactory:21 - chorme initilaized
+2023-02-09 17:48:13,808  INFO [TestNG-test=Test-1] driverfactory:21 - chorme initilaized
+2023-02-09 17:48:36,824  INFO [TestNG-test=Test-1] elementutils:20 - inside enterusername method
+2023-02-09 17:48:36,840  INFO [TestNG-test=Test-1] elementutils:21 - Locator :By.name: username
+2023-02-09 17:48:37,119  INFO [TestNG-test=Test-2] elementutils:20 - inside enterusername method
+2023-02-09 17:48:37,120  INFO [TestNG-test=Test-2] elementutils:21 - Locator :By.name: username
+2023-02-09 17:48:37,620  INFO [TestNG-test=Test-1] elementutils:24 - username successfully entered
+2023-02-09 17:48:37,621  INFO [TestNG-test=Test-1] elementutils:20 - inside enterusername method
+2023-02-09 17:48:37,621  INFO [TestNG-test=Test-1] elementutils:21 - Locator :By.name: password
+2023-02-09 17:48:37,757  INFO [TestNG-test=Test-2] elementutils:24 - username successfully entered
+2023-02-09 17:48:37,757  INFO [TestNG-test=Test-2] elementutils:20 - inside enterusername method
+2023-02-09 17:48:37,758  INFO [TestNG-test=Test-2] elementutils:21 - Locator :By.name: password
+2023-02-09 17:48:38,059  INFO [TestNG-test=Test-1] elementutils:24 - username successfully entered
+2023-02-09 17:48:38,064  INFO [TestNG-test=Test-1] elementutils:34 - inside doclick method
+2023-02-09 17:48:38,065  INFO [TestNG-test=Test-1] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-09 17:48:38,208  INFO [TestNG-test=Test-2] elementutils:24 - username successfully entered
+2023-02-09 17:48:38,208  INFO [TestNG-test=Test-2] elementutils:34 - inside doclick method
+2023-02-09 17:48:38,209  INFO [TestNG-test=Test-2] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-09 17:48:38,482  INFO [TestNG-test=Test-1] elementutils:38 - successful click on button
+2023-02-09 17:48:38,484  INFO [TestNG-test=Test-1] elementutils:47 - inside isElementPresent method
+2023-02-09 17:48:38,485  INFO [TestNG-test=Test-1] elementutils:48 - locator:By.className: oxd-alert-content-text
+2023-02-09 17:48:43,336  INFO [TestNG-test=Test-2] elementutils:41 - unscessful click on button
+2023-02-09 17:48:43,340 ERROR [TestNG-test=Test-2] elementutils:42 - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E584GTO', ip: '192.168.43.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Acer\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b0e254deee0b8de3ba833049f49ed1e
+2023-02-09 17:48:43,345  INFO [TestNG-test=Test-2] elementutils:47 - inside isElementPresent method
+2023-02-09 17:48:43,347  INFO [TestNG-test=Test-2] elementutils:48 - locator:By.className: oxd-userdropdown-name
+2023-02-09 17:48:45,269  INFO [TestNG-test=Test-1] elementutils:52 - Element is present
+2023-02-09 17:48:45,279  INFO [TestNG-test=Test-1] elementutils:63 - inside gettext method
+2023-02-09 17:48:45,279  INFO [TestNG-test=Test-1] elementutils:64 - locator:By.className: oxd-alert-content-text
+2023-02-09 17:48:45,426  INFO [TestNG-test=Test-1] elementutils:67 - text found
+2023-02-09 17:48:48,152  INFO [TestNG-test=Test-1] TestBase:45 - Execution started for testcase:redirectToResetPasswordPageLinkPresent-----------
+2023-02-09 17:48:48,403  INFO [TestNG-test=Test-1] driverfactory:21 - chorme initilaized
+2023-02-09 17:48:50,383  INFO [TestNG-test=Test-2] elementutils:56 - Element is not present
+2023-02-09 17:48:50,384 ERROR [TestNG-test=Test-2] elementutils:57 - org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:10425
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E584GTO', ip: '192.168.43.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: driver.version: EventFiringWebDriver
+2023-02-09 17:48:50,457  INFO [TestNG-test=Test-2] TestBase:45 - Execution started for testcase:verifyAdminButtonNavigatesToAdminPage-----------
+2023-02-09 17:48:50,699  INFO [TestNG-test=Test-2] driverfactory:21 - chorme initilaized
+2023-02-09 17:49:15,730  INFO [TestNG-test=Test-1] TestBase:45 - Execution started for testcase:verifyLinks-----------
+2023-02-09 17:49:15,802  INFO [TestNG-test=Test-1] driverfactory:21 - chorme initilaized
+2023-02-09 18:04:55,293  INFO [main] TestBase:37 - SIT
+2023-02-09 18:04:55,402  INFO [TestNG-test=Test-2] TestBase:45 - Execution started for testcase:loginTest-----------
+2023-02-09 18:04:55,402  INFO [TestNG-test=Test-1] TestBase:45 - Execution started for testcase:invalidLogin-----------
+2023-02-09 18:04:57,712  INFO [TestNG-test=Test-2] driverfactory:21 - chorme initilaized
+2023-02-09 18:04:57,716  INFO [TestNG-test=Test-1] driverfactory:21 - chorme initilaized
+2023-02-09 18:05:18,008  INFO [TestNG-test=Test-2] elementutils:20 - inside enterusername method
+2023-02-09 18:05:18,009  INFO [TestNG-test=Test-2] elementutils:21 - Locator :By.name: username
+2023-02-09 18:05:18,273  INFO [TestNG-test=Test-1] elementutils:20 - inside enterusername method
+2023-02-09 18:05:18,275  INFO [TestNG-test=Test-1] elementutils:21 - Locator :By.name: username
+2023-02-09 18:05:18,811  INFO [TestNG-test=Test-2] elementutils:24 - username successfully entered
+2023-02-09 18:05:18,812  INFO [TestNG-test=Test-2] elementutils:20 - inside enterusername method
+2023-02-09 18:05:18,813  INFO [TestNG-test=Test-2] elementutils:21 - Locator :By.name: password
+2023-02-09 18:05:19,039  INFO [TestNG-test=Test-1] elementutils:24 - username successfully entered
+2023-02-09 18:05:19,039  INFO [TestNG-test=Test-1] elementutils:20 - inside enterusername method
+2023-02-09 18:05:19,039  INFO [TestNG-test=Test-1] elementutils:21 - Locator :By.name: password
+2023-02-09 18:05:19,955  INFO [TestNG-test=Test-2] elementutils:24 - username successfully entered
+2023-02-09 18:05:19,958  INFO [TestNG-test=Test-2] elementutils:34 - inside doclick method
+2023-02-09 18:05:19,958  INFO [TestNG-test=Test-2] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-09 18:05:20,773  INFO [TestNG-test=Test-1] elementutils:24 - username successfully entered
+2023-02-09 18:05:20,773  INFO [TestNG-test=Test-1] elementutils:34 - inside doclick method
+2023-02-09 18:05:20,774  INFO [TestNG-test=Test-1] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-09 18:05:22,394  INFO [TestNG-test=Test-2] elementutils:38 - successful click on button
+2023-02-09 18:05:22,399  INFO [TestNG-test=Test-2] elementutils:47 - inside isElementPresent method
+2023-02-09 18:05:22,401  INFO [TestNG-test=Test-2] elementutils:48 - locator:By.className: oxd-userdropdown-name
+2023-02-09 18:05:22,433  INFO [TestNG-test=Test-1] elementutils:41 - unscessful click on button
+2023-02-09 18:05:22,438 ERROR [TestNG-test=Test-1] elementutils:42 - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E584GTO', ip: '192.168.43.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Acer\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f87ed6aec459f0020b7a26693abd499d
+2023-02-09 18:05:22,440  INFO [TestNG-test=Test-1] elementutils:47 - inside isElementPresent method
+2023-02-09 18:05:22,441  INFO [TestNG-test=Test-1] elementutils:48 - locator:By.className: oxd-alert-content-text
+2023-02-09 18:05:24,102  INFO [TestNG-test=Test-1] elementutils:52 - Element is present
+2023-02-09 18:05:24,109  INFO [TestNG-test=Test-1] elementutils:63 - inside gettext method
+2023-02-09 18:05:24,109  INFO [TestNG-test=Test-1] elementutils:64 - locator:By.className: oxd-alert-content-text
+2023-02-09 18:05:24,340  INFO [TestNG-test=Test-1] elementutils:67 - text found
+2023-02-09 18:05:30,602  INFO [TestNG-test=Test-1] TestBase:45 - Execution started for testcase:redirectToResetPasswordPageLinkPresent-----------
+2023-02-09 18:05:30,761  INFO [TestNG-test=Test-1] driverfactory:21 - chorme initilaized
+2023-02-09 18:05:35,432  INFO [TestNG-test=Test-2] elementutils:56 - Element is not present
+2023-02-09 18:05:35,436 ERROR [TestNG-test=Test-2] elementutils:57 - org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:1308
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E584GTO', ip: '192.168.43.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: driver.version: EventFiringWebDriver
+2023-02-09 18:05:52,786  INFO [TestNG-test=Test-1] TestBase:45 - Execution started for testcase:verifyAdminButtonNavigatesToAdminPage-----------
+2023-02-09 18:05:53,207  INFO [TestNG-test=Test-1] driverfactory:21 - chorme initilaized
+2023-02-09 18:05:53,576  INFO [TestNG-test=Test-2] TestBase:45 - Execution started for testcase:verifyLinks-----------
+2023-02-09 18:05:53,654  INFO [TestNG-test=Test-2] driverfactory:21 - chorme initilaized
+2023-02-09 18:06:14,934  INFO [TestNG-test=Test-2] elementutils:20 - inside enterusername method
+2023-02-09 18:06:14,934  INFO [TestNG-test=Test-2] elementutils:21 - Locator :By.name: username
+2023-02-09 18:06:15,351  INFO [TestNG-test=Test-2] elementutils:24 - username successfully entered
+2023-02-09 18:06:15,352  INFO [TestNG-test=Test-2] elementutils:20 - inside enterusername method
+2023-02-09 18:06:15,352  INFO [TestNG-test=Test-2] elementutils:21 - Locator :By.name: password
+2023-02-09 18:06:15,832  INFO [TestNG-test=Test-2] elementutils:24 - username successfully entered
+2023-02-09 18:06:15,832  INFO [TestNG-test=Test-2] elementutils:34 - inside doclick method
+2023-02-09 18:06:15,833  INFO [TestNG-test=Test-2] elementutils:35 - Locator:By.className: orangehrm-login-button
+2023-02-09 18:06:17,132  INFO [TestNG-test=Test-2] elementutils:41 - unscessful click on button
+2023-02-09 18:06:17,133 ERROR [TestNG-test=Test-2] elementutils:42 - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E584GTO', ip: '192.168.43.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Acer\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 79149a1dd4fd5ad4ee879cd751cebd58
+2023-02-09 18:06:17,134  INFO [TestNG-test=Test-2] elementutils:47 - inside isElementPresent method
+2023-02-09 18:06:17,134  INFO [TestNG-test=Test-2] elementutils:48 - locator:By.className: oxd-userdropdown-name
+2023-02-09 18:06:29,610  INFO [TestNG-test=Test-2] elementutils:56 - Element is not present
+2023-02-09 18:06:29,611 ERROR [TestNG-test=Test-2] elementutils:57 - org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E584GTO', ip: '192.168.43.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Acer\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 79149a1dd4fd5ad4ee879cd751cebd58
+*** Element info: {Using=class name, value=oxd-userdropdown-name}

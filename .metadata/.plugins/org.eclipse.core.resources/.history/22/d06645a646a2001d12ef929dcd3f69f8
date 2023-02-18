@@ -1,0 +1,18 @@
+package util;
+
+public class propconfig {
+	
+	public void init_propreties( String env){
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+		
+		
+
+	}
+
+}

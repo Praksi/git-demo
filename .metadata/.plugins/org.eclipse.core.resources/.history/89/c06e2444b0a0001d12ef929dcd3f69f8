@@ -1,0 +1,32 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class PimPage {
+	
+	WebDriver driver;
+
+	By alltextField=By.xpath("//input[@placeholder='Type for hints...']");
+	By EmployeeId=By.xpath("//div[@class='oxd-input-field-bottom-space']/div/input[@class='oxd-input--active']");
+    By alldropdown =By.xpath("//i[@class='oxd-select-text--arrow']");
+	By switchButton=By.xpath("//button[@class='orangehrm-left-space']");
+	
+	
+	public PimPage(WebDriver driver) {
+		this.driver=driver;
+	}
+	
+	
+	public void EmployeeName() {
+		driver.findElement(alltextField);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}
